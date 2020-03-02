@@ -1,0 +1,44 @@
+*{
+    font-family: Helvetica;
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#gif-buttons{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 1vw 0;
+}
+.gifButton{
+    flex-basis: 10%;
+    margin: .5% .5%;
+    font-size: 1.3vw;
+}
+
+#gif-form{
+    height: 3vw;
+    display: flex;
+    margin: 0 0 2% 0;
+}
+
+#category-input{
+    flex-grow: 3;
+}
+#category-submit{
+    flex-grow: 1;
+    font-size: 1.6vw;
+}
+
+#gif-outputs{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.object-output{
+    margin: auto;
+    text-align: center;
+}
