@@ -38,7 +38,14 @@
     display: flex;
     flex-wrap: wrap;
 }
-.object-output{
+.still, .moving{
     margin: auto;
     text-align: center;
+}
+div img{
+    margin: .3vw;
+}
+img:hover{
+    border: lightcoral solid .2vw;
+    margin: .1vw;
 }
